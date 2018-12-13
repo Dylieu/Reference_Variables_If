@@ -21,9 +21,9 @@ void draw () {
   }else if (key == 'e') {
     fill (0);
   }else if (key == 'r') {
-  fill (255);
+    fill (255);
   }else if (key == 't'){
-  fill (255, 0, 0);
+    fill (255, 0, 0);
   }else if (key == 'y') {
     fill (0, 255, 0);
   }else if (key == 'u') {
@@ -31,7 +31,7 @@ void draw () {
   }else if (key == 'i') {
     fill (255, 255, 0);
   }else if (key == 'o') {
-  fill (100, 64, 15);
+    fill (100, 64, 15);
   }else if (key == 'p') {
     fill (0, 255, 255);
   }else {
@@ -48,6 +48,7 @@ void draw () {
   }else if (key == 'm') {
     size = 10;
   }
+  
   
 //the actual drawing stuff 
   if (mousePressed && (mouseButton == LEFT)) {
