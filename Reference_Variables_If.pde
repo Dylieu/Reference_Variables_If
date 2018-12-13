@@ -1,5 +1,7 @@
 // add your Reference_Variable_If code here
 
+int size = 10;
+
 //every background thing
 void setup () {
   size (400, 400);
@@ -34,6 +36,17 @@ void draw () {
     fill (0, 255, 255);
   }else {
     
+  }
+  
+  if (keyPressed) {
+  }else if (key == 'z') {
+    size = 15;
+  }else if (key == 'x') {
+    size = 20;
+  }else if (key == 'c') {
+    size = 25;
+  }else if (key == 'm') {
+    size = 10;
   }
   
 //the actual drawing stuff 
