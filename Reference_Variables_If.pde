@@ -52,7 +52,7 @@ void draw () {
 //the actual drawing stuff 
   if (mousePressed && (mouseButton == LEFT)) {
     noStroke ();
-    ellipse (mouseX, mouseY, 10, 10);
+    ellipse (mouseX, mouseY, size, size);
   }else if (mousePressed && (mouseButton == RIGHT)) {
       fill (0, 255, 170);
       ellipse (mouseX, mouseY, 30, 30);
