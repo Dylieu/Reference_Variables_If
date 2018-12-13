@@ -45,7 +45,7 @@ void draw () {
     size = 20;
   }else if (key == 'c') {
     size = 25;
-  }else if (key == 'm') {
+  }else if (key == 'n') {
     size = 10;
   }
   
