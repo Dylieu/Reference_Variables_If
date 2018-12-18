@@ -38,8 +38,7 @@ void draw () {
     
   }
   
-  if (keyPressed) {
-  }else if (key == 'z') {
+  if (key == 'z') {
     size = 15;
   }else if (key == 'x') {
     size = 20;
