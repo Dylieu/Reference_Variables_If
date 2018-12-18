@@ -59,6 +59,6 @@ void draw () {
       fill (0, 255, 170);
       ellipse (mouseX, mouseY, 30, 30);
   }else {
-    fill (255, 255);
+    
   }
 }
