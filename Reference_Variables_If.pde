@@ -40,16 +40,6 @@ void draw () {
     
   }
   
- // if (key == 'z') {
-   // size = 15;
- // }else if (key == 'x') {
-   // size = 20;
- // }else if (key == 'c') {
-   // size = 25;
- // }else if (key == 'n') {
-   // size = 10;
- // }
-  
   
 //the actual drawing stuff 
   if (mousePressed && (mouseButton == LEFT)) {
